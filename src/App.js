@@ -1,6 +1,6 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import "./App.css";
-import Keyboard from "./Keyboard";
+import Keyboard from "./components";
 
 function App() {
 	return (
