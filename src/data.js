@@ -1,3 +1,10 @@
+// {
+// 	eng: "search1",
+// 	odia: " ାସ, ଶ୍ବର, ଭଗବାନ,daughter ିଅ,   ି",divine ଶ୍ୱରୀୟ,ଦୁ ,understand ି,to ଼ା, ଣ,girl ି, took ି,girls ି,ତ୍ୱ,ପାଞ୍ଚ,ମେଶ - sheep, ଜ୍ଞାନୀ- wise ଜ୍ ,ଦୁ -  ଦୁଃ,
+// ଧର୍ମଶାସ୍ତ୍ର -theology, doctrine - ଉପଦେଶ, ଯୌନ  -sex, ଣ - କୌ ,ଦ - ଦୌ,ଆଦ - ଆଦୌ, get reach - ପହଞ୍ଚିବା,Esau - ଏଷୌ, ଓ Oh,ବିଶ୍ ,grow ଼ୁ, glory, health - ସ୍ୱାସ୍ଥ୍ୟ,offer -ନୈ, ାରା, restore-ପୁନର୍ସ୍ଥାପିତ
+// },
+// ଦୁଃ ବୈ ଝୁ ବିଶ୍ୱାସ  ଦୌ ଗୌ ଦିବ୍ୟାଶ୍ୱରୀୟ  କୌ ପଢିବା ତଃ ପରମେଶ୍ବର  ନୈ ଢ଼ା ବିଶ୍ୱାସ ଦ୍ୱାରା ଢ଼ି ଢ଼ୁ  ରୄୃ ତ୍ୱ  ଢ଼ ୖିି ଝା ମେଶ ଦ୍ୱା  ସୈ ଝା ମୌ ଦୌ  ଷୌ  ସୌ ଟେପ୍ଉପରେ ଖାଲି ସ୍ଥାନ ଝି
+
 export const common_phrases = [
 	{
 		eng: "God",
@@ -113,7 +120,7 @@ export const common_phrases = [
 	},
 	{
 		eng: "sheep",
-		odia: "ମେଂଢା",
+		odia: "ମେଶ",
 	},
 	{
 		eng: "fundamental",
@@ -127,10 +134,6 @@ export const common_phrases = [
 		eng: "supernatural",
 		odia: "ଅଲୌକିକ",
 	},
-	// {
-	// 	eng: "search1",
-	// 	odia: " ାସ,God's ଶ୍ବର, ଭଗବାନ,daughter ିଅ,   ି",
-	// },
 ];
 export const oriya_keys = {
 	oriya_alphabets_set1: {
