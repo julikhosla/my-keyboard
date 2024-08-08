@@ -1,9 +1,11 @@
 // {
 // 	eng: "search1",
-// 	odia: " ାସ, ଶ୍ବର, ଭଗବାନ,daughter ିଅ,   ି",divine ଶ୍ୱରୀୟ,ଦୁ ,understand ି,to ଼ା, ଣ,girl ି, took ି,girls ି,ତ୍ୱ,ପାଞ୍ଚ,ମେଶ - sheep, ଜ୍ଞାନୀ- wise ଜ୍ ,ଦୁ -  ଦୁଃ,
-// ଧର୍ମଶାସ୍ତ୍ର -theology, doctrine - ଉପଦେଶ, ଯୌନ  -sex, ଣ - କୌ ,ଦ - ଦୌ,ଆଦ - ଆଦୌ, get reach - ପହଞ୍ଚିବା,Esau - ଏଷୌ, ଓ Oh,ବିଶ୍ ,grow ଼ୁ, glory, health - ସ୍ୱାସ୍ଥ୍ୟ,offer -ନୈ, ାରା, restore-ପୁନର୍ସ୍ଥାପିତ
-// },
-// ଦୁଃ ବୈ ଝୁ ବିଶ୍ୱାସ  ଦୌ ଗୌ ଦିବ୍ୟାଶ୍ୱରୀୟ  କୌ ପଢିବା ତଃ ପରମେଶ୍ବର  ନୈ ଢ଼ା ବିଶ୍ୱାସ ଦ୍ୱାରା ଢ଼ି ଢ଼ୁ  ରୄୃ ତ୍ୱ  ଢ଼ ୖିି ଝା ମେଶ ଦ୍ୱା  ସୈ ଝା ମୌ ଦୌ  ଷୌ  ସୌ ଟେପ୍ଉପରେ ଖାଲି ସ୍ଥାନ ଝି
+// 	odia: " ାସ,daughter ିଅ,   ି",divine, ଦୁ  ,understand ି ,to ଼ା,  ଣ,ଭଗବାନ,purgatory-ପାପ ପରିଶୋଧ ନିବାସ,  ଶ୍ବର, , ଶବ୍ଦ - Word - ବାକ୍ୟ, THOU- ତୁମ୍ଭଭେ, season, Russia - ରୁଷିଆ, jezebel - ଇଷେବଲ, ମେଷ - sheep, ଆଦ - ଆଦୌ, get reach - ପହଞ୍ଚିବା,ବିଶ୍ ,ଗୌ ଼ୁ, glory, ory,health - ସ୍ୱାସ୍ଥ୍ୟ,offer -ନୈ, restore -ପୁନର୍ସ୍ଥାପିତ,ପୁନର୍ସ୍ଥାପନ , meeting , pour, raise,running,
+// ଧର୍ମଶାସ୍ତ୍ର -theology, doctrine - ଉପଦେଶ, ଯୌନ  -sex, bishop - ବିଶପ୍, , read,reading ଼ୁ,privilege,to ି,explained ା,fighting ୁ,scient,
+// intell,,imb, calling - ଆହ୍ୱାନ, run,live - ବଞ୍ଚିବ,malachi-ମାଲାକ୍ଷି ,,army,accept,recogni - ସ୍ୱୀକାର,  firm,  , GENERATION,,  ାରା - ଦ୍ୱାରା,::, ଶ୍ୱର,Elohim - ଏଲୋହୀମ,cow , chronicles - ବଂଶାବଳୀ
+// ତ୍ୱ,five - ପାଞ୍ଚ,, ସେଣ୍ଟ - ସାଧୁ, ଜ୍ଞାନୀ- wise ଜ୍ ,ଦୁ -  ଦୁଃ, altar - ଯଜ୍ଞବେଦି,  ଣ - କୌ ,Esau - ଏଷୌ, ଓ Oh,},
+
+// ଦୁଃ ତଃ ଦ୍ୱା ୱା ଇ  ରୄୃ ଝ ଝି ଢ଼ି ଝୁ  ଝା ଢ଼ୁ ଢ଼ା   ଢ଼େ ଭେ ନୈ  ଶୈ ଦୈ ବୈ  ସୈ  ମୌ  ଦୌ ଗୌ ସୌ  ଲୌ କୌ ଢ଼ା  ପ୍ରତିଜ୍ଞା  ଦ୍ୱାରା ବିଶ୍ୱାସ ପରମେଶ୍ବର  ମେଷ  ଦିବ୍ୟାଶ୍ୱରୀୟ ଟେପ୍ଉପରେ ଖାଲି ସ୍ଥାନ ଦ୍ୱାରା ନାଳ ଧରର୍ଯ୍ୟର   ଷୌ ଇଷେବଲ
 
 export const common_phrases = [
 	{
@@ -14,6 +16,7 @@ export const common_phrases = [
 		eng: "Jesus Christ",
 		odia: "ଯୀଶୁ ଖ୍ରୀଷ୍ଟ",
 	},
+	{ eng: "rapture", odia: "ରାପ୍ଟର" },
 	{
 		eng: "believer",
 		odia: "ବିଶ୍ୱାସୀ",
@@ -120,7 +123,7 @@ export const common_phrases = [
 	},
 	{
 		eng: "sheep",
-		odia: "ମେଶ",
+		odia: "ମେଷ",
 	},
 	{
 		eng: "fundamental",
