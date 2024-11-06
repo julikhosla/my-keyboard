@@ -260,7 +260,7 @@ const Keyboard = () => {
 										eng_name={category}
 										key={category}
 										local_name={keys}
-										onClick={() => handleKeyPress(category)}
+										onClick={() => handleKeyPress(keys)}
 									/>
 								),
 							)}
