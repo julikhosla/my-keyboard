@@ -11,7 +11,7 @@ import {
 	useClipboard,
 } from "@chakra-ui/react";
 import React, { useState } from "react";
-import { common_phrases, oriya_keys } from "../data";
+import { common_phrases, keyboard_keys } from "../data";
 import ActionButton from "./ActionButton";
 import CharButton from "./CharButton";
 
@@ -33,7 +33,7 @@ const Keyboard = () => {
 				"linear-gradient(104deg, rgba(219,229,255,1) 0%, rgba(222,222,222,1) 100%);"
 			}
 		>
-			<VStack spacing={2}>
+			<VStack spacing={2} w="100%">
 				<Textarea
 					rows={3}
 					value={typedText}
@@ -77,7 +77,7 @@ const Keyboard = () => {
 						}}
 						gap={0}
 					>
-						{Object.entries(oriya_keys.oriya_alphabets_set1).map(
+						{Object.entries(keyboard_keys.oriya_consonants).map(
 							([category, keys]) => (
 								<CharButton
 									eng_name={keys}
@@ -95,7 +95,7 @@ const Keyboard = () => {
 							}}
 							gap={2}
 						>
-							{Object.entries(oriya_keys.oriya_alphabets_set2.set1).map(
+							{Object.entries(keyboard_keys.oriya_vowels.set1).map(
 								([category, keys]) => (
 									<CharButton
 										eng_name={keys}
@@ -114,7 +114,7 @@ const Keyboard = () => {
 							mt={2}
 							ml={"7em"}
 						>
-							{Object.entries(oriya_keys.oriya_alphabets_set2.set2).map(
+							{Object.entries(keyboard_keys.oriya_vowels.punctuation_set2).map(
 								([category, keys]) => (
 									<CharButton
 										noText
@@ -138,7 +138,7 @@ const Keyboard = () => {
 									}}
 									gap={3}
 								>
-									{Object.entries(oriya_keys.oriya_alphabets_set2.set3).map(
+									{Object.entries(keyboard_keys.oriya_vowels.set3).map(
 										([category, keys]) => (
 											<CharButton
 												eng_name={keys}
@@ -156,17 +156,17 @@ const Keyboard = () => {
 									gap={3}
 									mt={1}
 								>
-									{Object.entries(oriya_keys.oriya_alphabets_set2.set4).map(
-										([category, keys]) => (
-											<CharButton
-												noText
-												eng_name={keys}
-												key={category}
-												local_name={category}
-												onClick={() => handleKeyPress(category)}
-											/>
-										),
-									)}
+									{Object.entries(
+										keyboard_keys.oriya_vowels.punctuation_set4,
+									).map(([category, keys]) => (
+										<CharButton
+											noText
+											eng_name={keys}
+											key={category}
+											local_name={category}
+											onClick={() => handleKeyPress(category)}
+										/>
+									))}
 								</Grid>
 							</VStack>
 							<VStack>
@@ -177,7 +177,7 @@ const Keyboard = () => {
 									gap={3}
 									mt={1}
 								>
-									{Object.entries(oriya_keys.oriya_alphabets_set2.set7).map(
+									{Object.entries(keyboard_keys.oriya_vowels.set7).map(
 										([category, keys]) => (
 											<CharButton
 												eng_name={keys}
@@ -195,17 +195,17 @@ const Keyboard = () => {
 									gap={3}
 									mt={1}
 								>
-									{Object.entries(oriya_keys.oriya_alphabets_set2.set8).map(
-										([category, keys]) => (
-											<CharButton
-												noText
-												eng_name={keys}
-												key={category}
-												local_name={category}
-												onClick={() => handleKeyPress(category)}
-											/>
-										),
-									)}
+									{Object.entries(
+										keyboard_keys.oriya_vowels.punctuation_set8,
+									).map(([category, keys]) => (
+										<CharButton
+											noText
+											eng_name={keys}
+											key={category}
+											local_name={category}
+											onClick={() => handleKeyPress(category)}
+										/>
+									))}
 								</Grid>
 								<Grid
 									templateColumns={{
@@ -214,17 +214,17 @@ const Keyboard = () => {
 									gap={3}
 									mt={1}
 								>
-									{Object.entries(oriya_keys.oriya_alphabets_set2.set9).map(
-										([category, keys]) => (
-											<CharButton
-												noText
-												eng_name={keys}
-												key={category}
-												local_name={category}
-												onClick={() => handleKeyPress(category)}
-											/>
-										),
-									)}
+									{Object.entries(
+										keyboard_keys.oriya_vowels.punctuation_set9,
+									).map(([category, keys]) => (
+										<CharButton
+											noText
+											eng_name={keys}
+											key={category}
+											local_name={category}
+											onClick={() => handleKeyPress(category)}
+										/>
+									))}
 								</Grid>
 							</VStack>
 						</HStack>
@@ -235,7 +235,7 @@ const Keyboard = () => {
 							gap={3}
 							mt={1}
 						>
-							{Object.entries(oriya_keys.oriya_alphabets_set2.set5).map(
+							{Object.entries(keyboard_keys.oriya_vowels.punctuation_set5).map(
 								([category, keys]) => (
 									<CharButton
 										noText
@@ -254,7 +254,7 @@ const Keyboard = () => {
 							gap={3}
 							mt={1}
 						>
-							{Object.entries(oriya_keys.oriya_alphabets_set2.set6).map(
+							{Object.entries(keyboard_keys.oriya_vowels.numbers).map(
 								([category, keys]) => (
 									<CharButton
 										eng_name={category}

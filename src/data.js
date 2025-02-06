@@ -1,11 +1,11 @@
 // {
 // 	eng: "search1",
-// 	odia: " ାସ,daughter ିଅ,   ି",divine, ଦୁ  ,understand ି ,to ଼ା,  ଣ,ଭଗବାନ, ଶ୍ବର, purgatory-ପାପ ପରିଶୋଧ ନିବାସ, ଶବ୍ଦ - Word - ବାକ୍ୟ, THOU- ତୁମ୍ଭଭେ, season, Russia - ରୁଷିଆ, jezebel - ଇଷେବଲ, ମେଷ - sheep, ଆଦ - ଆଦୌ, get reach - ପହଞ୍ଚିବା,ବିଶ୍ ,ଗୌ ଼ୁ, glory, ory,health - ସ୍ୱାସ୍ଥ୍ୟ,offer -ନୈ, restore -ପୁନର୍ସ୍ଥାପିତ,ପୁନର୍ସ୍ଥାପନ , meeting , pour, raise,running,
+// 	odia: " ାସ,daughter ିଅ,   ି",divine, ଦୁ  ,understand ି ,to ଼ା,  ଣ,ଭଗବାନ, ଶ୍ବର, purgatory-ପାପ ପରିଶୋଧ ନିବାସ, ଶବ୍ଦ - Word - ବାକ୍ୟ, THOU- ତୁମ୍ଭଭେ, season, Russia - ରୁଷିଆ, jezebel - ଇଷେବଲ, ମେଷ - sheep, ଆଦ - ଆଦୌ, get reach - ପହଞ୍ଚିବା,ବିଶ୍ ,ଗୌ ଼ୁ, glory, ory,health - ସ୍ୱାସ୍ଥ୍ୟ,offer -ନୈ, privilege ,restore -ପୁନର୍ସ୍ଥାପିତ,ପୁନର୍ସ୍ଥାପନ , meeting , pour, raise,running,
 // ଧର୍ମଶାସ୍ତ୍ର -theology, doctrine - ଉପଦେଶ, ଯୌନ  -sex, bishop - ବିଶପ୍, , read,reading ଼ୁ,privilege,to ି,explained ା,fighting ୁ,scient,
 // intell,,imb, calling - ଆହ୍ୱାନ, run,live - ବଞ୍ଚିବ,malachi-ମାଲାକ୍ଷି ,,army,accept,recogni - ସ୍ୱୀକାର,  firm,  , GENERATION,,  ାରା - ଦ୍ୱାରା,::, ଶ୍ୱର,Elohim - ଏଲୋହୀମ,cow , chronicles - ବଂଶାବଳୀ
 // ତ୍ୱ,five - ପାଞ୍ଚ,, ସେଣ୍ଟ - ସାଧୁ, ଜ୍ଞାନୀ- wise ଜ୍ ,ଦୁ -  ଦୁଃ, altar - ଯଜ୍ଞବେଦି,  ଣ - କୌ ,Esau - ଏଷୌ, ଓ Oh,},
 
-// ଦୁଃ ତଃ ଦ୍ୱା ୱା ଇ  ରୄୃ ଝ ଝି ଢ଼ି ଝୁ  ଝା ଢ଼ୁ ଢ଼ା   ଢ଼େ ଭେ ନୈ  ଶୈ ଦୈ ବୈ  ସୈ  ମୌ  ଦୌ ଗୌ ସୌ  ଲୌ କୌ ଢ଼ା  ପ୍ରତିଜ୍ଞା  ଦ୍ୱାରା ବିଶ୍ୱାସ ପରମେଶ୍ବର  ମେଷ  ଦିବ୍ୟାଶ୍ୱରୀୟ ଟେପ୍ଉପରେ ଖାଲି ସ୍ଥାନ ଦ୍ୱାରା ନାଳ ଧରର୍ଯ୍ୟର   ଷୌ ଇଷେବଲ ଯୌନ ଝେ ଭେ ଯୌ ସ୍ୱା ଔ ସୌ
+//    ଦୁଃ ତଃ ତ୍ଵ ଦ୍ୱା ୱା ଇ ସ୍ୱା  ରୄୃ ଝ ଝି ଢ଼ି ଝୁ  ଝା ଢ଼ୁ ଢ଼ା ଢ଼ ଢ଼େ ଭେ ନୈ  ଶୈ ଦୈ ବୈ  ସୈ  ମୌ  ଦୌ ଗୌ ସୌ   ଲୌ କୌ ଷୌ ଯୌ ପ୍ରତିଜ୍ଞା  ଦ୍ୱାରା ବିଶ୍ୱାସ ବିଶ୍ୱ ପରମେଶ୍ବର  ମେଷ  ଦିବ୍ୟାଶ୍ୱରୀୟ ଟେପ୍ଉପରେ ଖାଲି ସ୍ଥାନ ଦ୍ୱାରା ନାଳ ଧରର୍ଯ୍ୟର  ଇଷେବଲ ଯୌନ ଝେ ଭେ  ସ୍ୱା ଔ  ବାକ୍ୟ   ନର୍ ଭୌ ମାହା ଛ୍ରି  ଆହ୍ୱାନ  ପାଞ୍ଚ  ପୁନର୍ସ୍ଥାପିତ
 
 export const common_phrases = [
 	{
@@ -138,8 +138,8 @@ export const common_phrases = [
 		odia: "ଅଲୌକିକ",
 	},
 ];
-export const oriya_keys = {
-	oriya_alphabets_set1: {
+export const keyboard_keys = {
+	oriya_consonants: {
 		କ: "ka",
 		ଖ: "kha",
 		ଗ: "ga",
@@ -179,7 +179,7 @@ export const oriya_keys = {
 		ଢ଼: "Ṛha",
 		ୱ: "wa",
 	},
-	oriya_alphabets_set2: {
+	oriya_vowels: {
 		set1: {
 			ଅ: "a",
 			ଆ: "ā",
@@ -188,7 +188,7 @@ export const oriya_keys = {
 			ଉ: "u",
 			ଊ: "ū",
 		},
-		set2: {
+		punctuation_set2: {
 			"ା": "ା",
 			"ି": "ି",
 			"ୀ": "ୀ",
@@ -201,20 +201,20 @@ export const oriya_keys = {
 			ଌ: "li",
 			ୡ: "lī",
 		},
-		set4: {
+		punctuation_set4: {
 			"ୃ": "ୃ",
 			"ୄ": "ୄ",
 			"ୢ": "ୢ",
 			"ୣ": "ୣ",
 			"୍": "୍",
 		},
-		set5: {
+		punctuation_set5: {
 			"ଂ": "ଂ",
 			"ଃ": "ଃ",
 			"଼": "଼",
 			ଽ: "ଽ",
 		},
-		set6: {
+		numbers: {
 			0: "୦",
 			1: "୧",
 			2: "୨",
@@ -232,13 +232,13 @@ export const oriya_keys = {
 			ଓ: "o",
 			ଔ: "au",
 		},
-		set8: {
+		punctuation_set8: {
 			"େ": "େ",
 			"ୈ": "ୈ",
 			"ୋ": "ୋ",
 			"ୌ": "ୌ",
 		},
-		set9: {
+		punctuation_set9: {
 			"ୖ": "ୖ",
 			"ୣୗ": "ୣୗ",
 		},
