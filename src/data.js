@@ -1,6 +1,6 @@
 // {
 // 	eng: "search1",
-// 	odia: " ାସ,daughter ିଅ,   ି",divine, ଦୁ  ,understand ି ,to ଼ା,  ଣ,ଭଗବାନ, ଶ୍ବର, purgatory-ପାପ ପରିଶୋଧ ନିବାସ, ଶବ୍ଦ - Word - ବାକ୍ୟ, THOU- ତୁମ୍ଭଭେ, season, Russia - ରୁଷିଆ, jezebel - ଇଷେବଲ, ମେଷ - sheep, ଆଦ - ଆଦୌ, get reach - ପହଞ୍ଚିବା,ବିଶ୍ ,ଗୌ ଼ୁ, glory, ory,health - ସ୍ୱାସ୍ଥ୍ୟ,offer -ନୈ, privilege ,restore -ପୁନର୍ସ୍ଥାପିତ,ପୁନର୍ସ୍ଥାପନ , meeting , pour, raise,running,
+// 	odia: " ାସ,daughter ିଅ,   ି",divine, ଦୁ  ,understand ି ,to ଼ା,  ଣ,ଭଗବାନ, ପରମେଶ୍ବର, ଶ୍ବର, ସାପ,ସର୍ପ,purgatory-ପାପ ପରିଶୋଧ ନିବାସ, ଶବ୍ଦ - Word - ବାକ୍ୟ, THOU- ତୁମ୍ଭଭେ, season, Russia - ରୁଷିଆ, jezebel - ଇଷେବଲ, ମେଷ - sheep, ଆଦ - ଆଦୌ, get reach - ପହଞ୍ଚିବା,ବିଶ୍ ,ଗୌ ଼ୁ, glory, ory,health - ସ୍ୱାସ୍ଥ୍ୟ,offer -ନୈ, privilege ,restore -ପୁନର୍ସ୍ଥାପିତ,ପୁନର୍ସ୍ଥାପନ , meeting , pour, raise,running,
 // ଧର୍ମଶାସ୍ତ୍ର -theology, doctrine - ଉପଦେଶ, ଯୌନ  -sex, bishop - ବିଶପ୍, , read,reading ଼ୁ,privilege,to ି,explained ା,fighting ୁ,scient,
 // intell,,imb, calling - ଆହ୍ୱାନ, run,live - ବଞ୍ଚିବ,malachi-ମାଲାକ୍ଷି ,,army,accept,recogni - ସ୍ୱୀକାର,  firm,  , GENERATION,,  ାରା - ଦ୍ୱାରା,::, ଶ୍ୱର,Elohim - ଏଲୋହୀମ,cow , chronicles - ବଂଶାବଳୀ
 // ତ୍ୱ,five - ପାଞ୍ଚ,, ସେଣ୍ଟ - ସାଧୁ, ଜ୍ଞାନୀ- wise ଜ୍ ,ଦୁ -  ଦୁଃ, altar - ଯଜ୍ଞବେଦି,  ଣ - କୌ ,Esau - ଏଷୌ, ଓ Oh,},
