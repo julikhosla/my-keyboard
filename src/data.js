@@ -16,6 +16,7 @@ export const common_phrases = [
 		eng: "Jesus Christ",
 		odia: "ଯୀଶୁ ଖ୍ରୀଷ୍ଟ",
 	},
+	{ eng: "serpent", odia: "ସର୍ପ" },
 	{ eng: "rapture", odia: "ରାପ୍ଟର" },
 	{
 		eng: "believer",
