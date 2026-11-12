@@ -77,7 +77,7 @@ const Keyboard = () => {
 						}}
 						gap={0}
 					>
-						{Object.entries(keyboard_keys.oriya_consonants).map(
+						{Object.entries(keyboard_keys.consonants).map(
 							([category, keys]) => (
 								<CharButton
 									eng_name={keys}
@@ -95,16 +95,14 @@ const Keyboard = () => {
 							}}
 							gap={2}
 						>
-							{Object.entries(keyboard_keys.oriya_vowels.set1).map(
-								([category, keys]) => (
-									<CharButton
-										eng_name={keys}
-										key={category}
-										local_name={category}
-										onClick={() => handleKeyPress(category)}
-									/>
-								),
-							)}
+							{Object.entries(keyboard_keys.vowels).map(([category, keys]) => (
+								<CharButton
+									eng_name={keys}
+									key={category}
+									local_name={category}
+									onClick={() => handleKeyPress(category)}
+								/>
+							))}
 						</Grid>
 						<Grid
 							templateColumns={{
@@ -114,7 +112,7 @@ const Keyboard = () => {
 							mt={2}
 							ml={"7em"}
 						>
-							{Object.entries(keyboard_keys.oriya_vowels.punctuation_set2).map(
+							{Object.entries(keyboard_keys.punctuation).map(
 								([category, keys]) => (
 									<CharButton
 										noText
@@ -126,127 +124,7 @@ const Keyboard = () => {
 								),
 							)}
 						</Grid>
-						<HStack
-							justify={"center"}
-							spacing={5}
-							flexDir={{ base: "column", md: "row" }}
-						>
-							<VStack>
-								<Grid
-									templateColumns={{
-										base: "repeat(4, 1fr)",
-									}}
-									gap={3}
-								>
-									{Object.entries(keyboard_keys.oriya_vowels.set3).map(
-										([category, keys]) => (
-											<CharButton
-												eng_name={keys}
-												key={category}
-												local_name={category}
-												onClick={() => handleKeyPress(category)}
-											/>
-										),
-									)}
-								</Grid>
-								<Grid
-									templateColumns={{
-										base: "repeat(3, 1fr)",
-									}}
-									gap={3}
-									mt={1}
-								>
-									{Object.entries(
-										keyboard_keys.oriya_vowels.punctuation_set4,
-									).map(([category, keys]) => (
-										<CharButton
-											noText
-											eng_name={keys}
-											key={category}
-											local_name={category}
-											onClick={() => handleKeyPress(category)}
-										/>
-									))}
-								</Grid>
-							</VStack>
-							<VStack>
-								<Grid
-									templateColumns={{
-										base: "repeat(6, 1fr)",
-									}}
-									gap={3}
-									mt={1}
-								>
-									{Object.entries(keyboard_keys.oriya_vowels.set7).map(
-										([category, keys]) => (
-											<CharButton
-												eng_name={keys}
-												key={category}
-												local_name={category}
-												onClick={() => handleKeyPress(category)}
-											/>
-										),
-									)}
-								</Grid>
-								<Grid
-									templateColumns={{
-										base: "repeat(6, 1fr)",
-									}}
-									gap={3}
-									mt={1}
-								>
-									{Object.entries(
-										keyboard_keys.oriya_vowels.punctuation_set8,
-									).map(([category, keys]) => (
-										<CharButton
-											noText
-											eng_name={keys}
-											key={category}
-											local_name={category}
-											onClick={() => handleKeyPress(category)}
-										/>
-									))}
-								</Grid>
-								<Grid
-									templateColumns={{
-										base: "repeat(6, 1fr)",
-									}}
-									gap={3}
-									mt={1}
-								>
-									{Object.entries(
-										keyboard_keys.oriya_vowels.punctuation_set9,
-									).map(([category, keys]) => (
-										<CharButton
-											noText
-											eng_name={keys}
-											key={category}
-											local_name={category}
-											onClick={() => handleKeyPress(category)}
-										/>
-									))}
-								</Grid>
-							</VStack>
-						</HStack>
-						<Grid
-							templateColumns={{
-								base: "repeat(6, 1fr)",
-							}}
-							gap={3}
-							mt={1}
-						>
-							{Object.entries(keyboard_keys.oriya_vowels.punctuation_set5).map(
-								([category, keys]) => (
-									<CharButton
-										noText
-										eng_name={keys}
-										key={category}
-										local_name={category}
-										onClick={() => handleKeyPress(category)}
-									/>
-								),
-							)}
-						</Grid>
+
 						<Grid
 							templateColumns={{
 								base: "repeat(5, 1fr)",
@@ -254,16 +132,14 @@ const Keyboard = () => {
 							gap={3}
 							mt={1}
 						>
-							{Object.entries(keyboard_keys.oriya_vowels.numbers).map(
-								([category, keys]) => (
-									<CharButton
-										eng_name={category}
-										key={category}
-										local_name={keys}
-										onClick={() => handleKeyPress(keys)}
-									/>
-								),
-							)}
+							{Object.entries(keyboard_keys.numbers).map(([category, keys]) => (
+								<CharButton
+									eng_name={category}
+									key={category}
+									local_name={keys}
+									onClick={() => handleKeyPress(keys)}
+								/>
+							))}
 						</Grid>
 					</VStack>
 				</SimpleGrid>
@@ -280,8 +156,8 @@ const Keyboard = () => {
 						<CharButton
 							eng_name={text.eng}
 							key={index}
-							local_name={text.odia}
-							onClick={() => handleKeyPress(text.odia)}
+							local_name={text.hindi}
+							onClick={() => handleKeyPress(text.hindi)}
 						/>
 					))}
 				</Box>
